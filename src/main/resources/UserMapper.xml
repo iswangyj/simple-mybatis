@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mapper nameSpace="com.test.mapper.UserMapper">
+    <select id="getUserByPrimaryKey" resultType="com.test.domain.User">
+        SELECT * FROM USER WHERE ID = ?
+    </select>
+</mapper>
